@@ -1,0 +1,15 @@
+name: model_json
+description: make model json_serializable
+
+version: 0.1.0+1
+
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+
+vars:
+  name:
+    type: string
+    description: Your model name
+    prompt: What is your model name?
