@@ -19,7 +19,7 @@ mason make cubit
 | `name`         | filename and name class | action      | `string` |
 
 ## Outputs
-Structure
+#### Structure
 ```sh
 --name action_count
 ├── action_cubit
@@ -28,7 +28,7 @@ Structure
 └── ...
 ```
 
-file action_count_cubit.dart
+#### file action_count_cubit.dart
 ```dart
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
@@ -42,7 +42,7 @@ class ActionCountCubit extends Cubit<ActionCountState> {
 }
 ```
 
-file action_count_state.dart
+#### file action_count_state.dart
 ```dart
 part of 'action_count_cubit.dart';
 
