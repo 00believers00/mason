@@ -17,6 +17,7 @@ brew install mason
 mason init
 ```
 หลังจาก run คำสั่ง init เราจะได้ตามภาพด้านล้างนี้
+
 ![folder](/assets/1.png)
 
 ### Make brick
@@ -33,6 +34,7 @@ mason init
     mason new <name brick>
     ```
 หลังจาก run คำสั่ง new แล้วเราจะได้ folder ตามภาพ
+
 ![structure](/assets/2.png)
 
 ในการสร้าง template ของเราเองจะกำหนดได้ที่ folder `__brick__`
@@ -101,6 +103,7 @@ mason get
 mason make widget
 ```
 จะขึ้นให้กรอกข้อมูลของตัวแปรที่เราตั้งค่าไว้ ถ้าเรากรอกเสร็จจะได้ไฟล์ที่เราตั้งค่าไว้
+
 ![make file mason](/assets/3.png)
 
 วิธีการนำไปใช้งานสามารถดูต่อได้ที่
