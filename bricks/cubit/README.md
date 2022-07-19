@@ -1,8 +1,9 @@
 # cubit
 
 ## Package Flutter Request
-[flutter_bloc](https://pub.dev/packages/flutter_bloc)
-[equatable](https://pub.dev/packages/equatable)
+>[flutter_bloc](https://pub.dev/packages/flutter_bloc)
+>
+>[equatable](https://pub.dev/packages/equatable)
 
 ## How to use 
 
