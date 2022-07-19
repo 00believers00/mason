@@ -1,0 +1,14 @@
+name: cubit
+description: create cubit for flutter_bloc
+
+version: 0.1.0+1
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+vars:
+  name:
+    type: string
+    description: Your action cubit name
+    default: action
+    prompt: What is your action cubit name?

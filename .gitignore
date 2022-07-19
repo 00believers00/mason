@@ -1,0 +1,4 @@
+.mason
+mason-lock.json
+*.DS_Store
+mason.yaml
