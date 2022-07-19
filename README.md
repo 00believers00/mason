@@ -22,10 +22,10 @@ brew install mason
     ***exmaple file mason.yaml
     ```.yaml
     bricks:
-    get_module:
-        git:
-        url: https://github.com/00believers00/mason
-        path: bricks/get_module
+      get_module:
+         git:
+           url: https://github.com/00believers00/mason
+           path: bricks/get_module
     ```
 
 - update data mason to project 
