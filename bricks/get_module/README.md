@@ -1,7 +1,7 @@
 # get_module
 
 ## Package Flutter Request
-[get](https://pub.dev/packages/get)
+>[get](https://pub.dev/packages/get)
 
 ## How to use 
 
@@ -17,7 +17,7 @@ mason make get_module
 | `name`         | filename and name class | dashboard   | `string` |
 
 ## Outputs
-Structure
+#### Structure
 ```sh
 --name module_name
 ├── module_name
@@ -32,7 +32,7 @@ Structure
 └── ...
 ```
 
-file bindings/module_name_binding.dart
+#### file bindings/module_name_binding.dart
 ```dart
 import 'package:get/get.dart';
 
@@ -46,7 +46,7 @@ class ModuleNameBinding extends Bindings {
 }
 ```
 
-file controllers/module_name_controller.dart
+#### file controllers/module_name_controller.dart
 ```dart
 import 'package:get/get.dart';
 
@@ -55,7 +55,7 @@ class ModuleNameController extends GetxController {
 }
 ```
 
-file views/module_name_view.dart
+#### file views/module_name_view.dart
 ```dart
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
