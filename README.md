@@ -1,5 +1,5 @@
 # mason
-ref: [mason_cli](https://pub.dev/packages/mason_cli)
+> [mason_cli](https://pub.dev/packages/mason_cli)
 
 ### Installation
 
@@ -11,7 +11,7 @@ dart pub global activate mason_cli
 brew tap felangel/mason
 brew install mason
 ```
----------------
+
 ### Initializing Use Mason in Project
 
 - location project and make file mason.yaml
@@ -32,7 +32,7 @@ brew install mason
     ```sh
     mason get
     ```
----------------
+
 ### Create template by mason 
 
 - goto location path
@@ -47,12 +47,12 @@ brew install mason
     ```sh
     mason make get_module
     ```
-  or
+  #### or
    ```sh
       mason make <name bricks> -o <path>
    ```
----------------
-config .gitignore
+
+#### config .gitignore
 ```
 .mason
 mason-lock.json
