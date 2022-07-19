@@ -12,7 +12,7 @@ brew tap felangel/mason
 brew install mason
 ```
 
-### Use Mason in Project
+### Initializing Use Mason in Project
 
 - location project and make file mason.yaml
     ```sh
@@ -33,7 +33,13 @@ brew install mason
     mason get
     ```
 
-- create template from mason
+### Create template by mason 
+
+- goto location path
+    ```sh
+    cd <location>   
+    ```
+- create template
     ```sh
     mason make <name bricks>
     ```
@@ -41,8 +47,12 @@ brew install mason
     ```sh
     mason make get_module
     ```
+######or
+ ```sh
+    mason make <name bricks> -o <path>
+ ```
 
-config .gitignore
+#####config .gitignore
 ```
 # Mason
 .mason
