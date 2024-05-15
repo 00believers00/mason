@@ -1,0 +1,15 @@
+name: model_freezed
+description: make model freezed
+
+version: 0.1.0+1
+
+
+environment:
+  mason: ">=0.1.0-dev.26 <0.1.0"
+
+
+vars:
+  name:
+    type: string
+    description: Your model name
+    prompt: What is your model name?
