@@ -11,6 +11,6 @@ environment:
 vars:
   name:
     type: string
-    description: Your action bloc freezed name
-    default: action
-    prompt: What is your action bloc freezed name?
+    description: Your module name
+    default: home
+    prompt: What is your module name?

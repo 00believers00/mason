@@ -6,7 +6,7 @@ import '../blocs/{{name}}_bloc.dart';
 class {{name.pascalCase()}}Binding extends Bindings {
   @override
   List<BlocProvider> get dependencies => [
-        BlocProvider(
+        BlocProvider<{{name.pascalCase()}}Bloc>(
           create: (context) => {{name.pascalCase()}}Bloc()
             ..add(
               const {{name.pascalCase()}}Event.onInit(),
