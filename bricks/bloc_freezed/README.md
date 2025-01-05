@@ -41,7 +41,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'action_counter_event.dart';
 part 'action_counter_state.dart';
-part 'action_counter_bloc.freezed.dart';
+part 'generated/action_counter_bloc.freezed.dart';
 
 class ActionCounterBloc extends Bloc<ActionCounterEvent, ActionCounterState>{
   ActionCounterBloc():super(const _Initial()){
